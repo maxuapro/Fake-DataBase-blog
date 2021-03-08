@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+    <title>CMS</title>
+</head>
+
+<body>
+    <nav class="navbar sticky-top navbar-dark bg-dark">
+        <h1 style="color: white; padding-left: 30px;">Fake DB</h1>
+    </nav>
+    <div class="container" style="max-width: 600px;">
+    <h1>Add new element</h1>
+    <form action="/" method="POST">
+        <div class="mb-3">
+            <label for="title" class="form-label">Write your title</label>
+            <input type="text" class="form-control" id="title" placeholder="Example input placeholder" name="title">
+        </div>
+        <div class="form-floating">
+            <label for="text">Write here!</label>
+            <textarea class="form-control" placeholder="Leave a comment here" id="text" style="height: 100px" name="text"></textarea>
+        </div>
+
+        <a href="/" class="btn btn-primary mt-3">Cancel</a>
+        <button type="reset" class="btn btn-primary mt-3">Reset</button>
+        <button type="submit" class="btn btn-success mt-3">SAVE</button>
+    </form>
+    </div>
+    
+</body>
+
+</html>
